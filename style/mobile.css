@@ -34,7 +34,7 @@ body > video{
 /*Header cofiguration*/
 
 header{
-    margin: auto;
+    margin: 0px auto;
     width: 80vw;
 
     position: relative;
@@ -57,7 +57,7 @@ header > h2{
 nav{
     width: 90vw;
 
-    margin: auto;
+    margin: 0px auto;
 
     position: relative;
     z-index: 1;
@@ -105,14 +105,19 @@ nav > h2{
 
 /*Article cofiguration*/
 
+main{
+    width: 70vw;
+
+    margin: 0px auto;
+}
+
 article{
     background-color: rgba(255, 255, 255, 0.082);
     border: 2px solid rgba(255, 255, 255, 0.753);
     border-radius: 10px;
 
-    width: 70vw;
 
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px;
 
     position: relative;
@@ -144,7 +149,6 @@ article > p{
 /*Links cofiguration*/
 
 section{
-    width: 70vw;
 
     background-color: rgba(255, 255, 255, 0.082);
     border: 2px solid rgba(255, 255, 255, 0.753);
@@ -190,9 +194,7 @@ section > a >#Portfolio::after{
 /*Credits cofiguration*/
 
 aside{
-    width: 80vw;
-
-    margin: auto;
+    margin: 0px auto;
 
     position: relative;
     z-index: 1;
@@ -224,18 +226,16 @@ aside > a > img:hover{
 /*Body cofiguration*/
 
 footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100vw;
+    bottom: 0;
 
-    position: relative;
     z-index: 1;
+    position: relative;
+
+    margin: 0px auto;
 }
 
 footer > p{
-    display: block;
-    
     text-align: center;
     font: 0.8em var(--fonte01);
   
