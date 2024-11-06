@@ -3,78 +3,78 @@
 
 @media (min-width:500px){
     header{
-        width: 70vw;
+        max-width: 70vw;
     }
 
     nav{
-        width:70vw;
+        max-width:70vw;
     }
 
     nav > img{
-        width: 15vw;
+        max-width: 25vw;
     }
 
     main{
-        width: 70vw;
+        max-width: 60vw;
     }
 
     aside > a > img{
-        width: 9vw;
+        max-width: 9vw;
     }
 
     footer{
-        width: 70vw;
+        max-width: 70vw;
     }
 }
 
 @media (min-width:768px){
     header{
-        width: 50vw;
+        max-width: 50vw;
     }
 
     nav{
-        width: 50vw;
+        max-width: 50vw;
     }
 
     nav > img{
-        width: 18vw;
+        max-width: 20vw;
     }
 
     main{
-        width: 50vw;
+        max-width: 50vw;
     }
 
     aside > a > img{
-        width: 5vw;
+        max-width: 5vw;
     }
 
     footer{
-        width: 50vw;
+        max-width: 50vw;
     }
 }
 
 @media (min-width:1024px){
     header{
-        width: 40vw;
+        max-width: 40vw;
     }
 
     nav{
-        width: 40vw;
+        max-width: 40vw;
     }
 
     nav > img{
-        width: 18vw;
+        max-width: 18vw;
     }
 
     main{
-        width: 40vw;
+        max-width: 40vw;
     }
 
     aside > a > img{
-        width: 4vw;
+        max-width: 4vw;
     }
 
     footer{
-        width: 40vw;
+        max-width: 40vw;
     }
 }

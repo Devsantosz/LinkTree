@@ -55,7 +55,7 @@ header > h2{
 /*Perfil cofiguration*/
 
 nav{
-    width: 90vw;
+    max-width: 90vw;
 
     margin: 0px auto;
 
@@ -106,7 +106,7 @@ nav > h2{
 /*Article cofiguration*/
 
 main{
-    width: 70vw;
+    max-width: 70vw;
 
     margin: 0px auto;
 }
@@ -226,7 +226,7 @@ aside > a > img:hover{
 /*Body cofiguration*/
 
 footer{
-    width: 100vw;
+    max-width: 70vw;
     bottom: 0;
 
     z-index: 1;
