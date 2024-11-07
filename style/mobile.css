@@ -35,7 +35,7 @@ body > video{
 
 header{
     margin: 0px auto;
-    width: 80vw;
+    width: 90vw;
 
     position: relative;
     z-index: 1;
@@ -106,7 +106,7 @@ nav > h2{
 /*Article cofiguration*/
 
 main{
-    max-width: 70vw;
+    max-width: 90vw;
 
     margin: 0px auto;
 }
@@ -226,8 +226,7 @@ aside > a > img:hover{
 /*Body cofiguration*/
 
 footer{
-    max-width: 70vw;
-    bottom: 0;
+    max-width: 90vw;
 
     z-index: 1;
     position: relative;
