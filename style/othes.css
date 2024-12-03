@@ -8,8 +8,16 @@ Tablet: 768px até 992
 Desktop: 992px 1200px
 Grandes telas: acima de 1200px
 */
-@media screen {
-    
+@media screen and (max-width:600px){
+    main{
+        max-width: 70vw;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    main{
+        max-width: 60vw;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px){ 
