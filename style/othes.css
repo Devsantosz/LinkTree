@@ -1,80 +1,28 @@
 @charset "UTF-8";
 
+/*typical Device Breakpoints
+-----------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992
+Desktop: 992px 1200px
+Grandes telas: acima de 1200px
+*/
+@media screen {
+    
+}
 
-@media (min-width:500px){
-    header{
-        max-width: 70vw;
-    }
-
-    nav{
-        max-width:70vw;
-    }
-
-    nav > img{
-        max-width: 25vw;
-    }
+@media screen and (min-width:768px) and (max-width:992px){ 
 
     main{
-        max-width: 60vw;
-    }
-
-    aside > a > img{
-        max-width: 9vw;
-    }
-
-    footer{
-        max-width: 70vw;
+        max-width: 40%;
     }
 }
 
-@media (min-width:768px){
-    header{
-        max-width: 50vw;
-    }
-
-    nav{
-        max-width: 50vw;
-    }
-
-    nav > img{
-        max-width: 20vw;
-    }
-
-    main{
-        max-width: 50vw;
-    }
-
-    aside > a > img{
-        max-width: 5vw;
-    }
-
-    footer{
-        max-width: 50vw;
-    }
-}
-
-@media (min-width:1024px){
-    header{
-        max-width: 40vw;
-    }
-
-    nav{
-        max-width: 40vw;
-    }
-
-    nav > img{
-        max-width: 18vw;
-    }
-
+@media screen and(min-width:992px) and (max-width:1200px){
+    
     main{
         max-width: 40vw;
     }
 
-    aside > a > img{
-        max-width: 4vw;
-    }
-
-    footer{
-        max-width: 40vw;
-    }
 }

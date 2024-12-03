@@ -34,7 +34,6 @@ body > video{
 /*Header cofiguration*/
 
 header{
-    max-width: 50%;
     margin: 0px auto;
 
     position: relative;
@@ -55,7 +54,6 @@ header > h2{
 /*Perfil cofiguration*/
 
 nav{
-    max-width: 50%;
     margin: 0px auto;
 
     position: relative;
@@ -63,7 +61,7 @@ nav{
 }
 
 nav > img{
-    width: 35vw;
+    width: 30%;
     display: block;
     margin: 10px auto;
 
@@ -105,7 +103,7 @@ nav > h2{
 /*Article cofiguration*/
 
 main{
-    max-width: 50%;
+    max-width: 80%;
     margin: 0px auto;
 }
 
@@ -224,8 +222,6 @@ aside > a > img:hover{
 /*Body cofiguration*/
 
 footer{
-    max-width: 40%;
-
     z-index: 1;
     position: relative;
 
