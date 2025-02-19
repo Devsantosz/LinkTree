@@ -220,8 +220,7 @@ footer{
 
     margin: 0px auto;
 
-    position: fixed;
-    bottom: 0;
+    position: 0;
 }
 
 footer > p{
