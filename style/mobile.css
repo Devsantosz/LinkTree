@@ -53,6 +53,7 @@ nav{
     border-radius: 5px;
     border: 2px solid white;
     width: 90%;
+    height: 50%;
     
 
     text-align: center;
@@ -63,9 +64,31 @@ nav{
 
 nav >img{
 
-    width: 30%;
+    border-radius: 5px;
+    width: 40%;
 }
 
+nav > h1{
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+nav > h1 > a{
+    color: black;
+    text-decoration: none;
+}
+
+
+nav > h2{
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+nav > p{
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
 /*Article cofiguration*/
 
 
