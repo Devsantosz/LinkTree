@@ -20,18 +20,51 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background: url(../image/bg\ code.jpg);
+    background-color: black;
+
+    //**background: url(../image/bg\ code.jpg);
     background-position: center center;
-    background-size: cover;
+    background-size: cover;**/
 }
 
 /*Header cofiguration*/
 
+header{
+    background-color: black;
+    border-bottom: 2px solid white;
+    margin: auto;
+    width: 90%;
 
+    text-align: center;
+}
+
+header > h2{
+    color: white;
+    padding: 10px;
+
+   font-weight: bolder;
+}
 
 /*Perfil cofiguration*/
 
+nav{
+    background-color: white;
+    
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 90%;
+    
 
+    text-align: center;
+
+    margin: 10px auto;
+    padding: 10px;
+}
+
+nav >img{
+
+    width: 30%;
+}
 
 /*Article cofiguration*/
 
@@ -50,3 +83,4 @@ body{
 
 /*Body cofiguration*/
 
+/*Footer configuration*/
