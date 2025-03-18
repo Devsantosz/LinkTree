@@ -59,7 +59,7 @@ main{
 
 nav{
     background-color: white;
-    
+    border: 2px solid rgb(132, 1, 255);
     border-radius: 5px;
     border: 2px solid white;
     width: 100%;
@@ -87,6 +87,7 @@ nav > h1{
     padding: 5px;
 
     width: 100%;
+    background-color: ;
 }
 
 nav > h1 > a{
@@ -118,10 +119,10 @@ nav > p{
 /*Article cofiguration*/
 
 article{
-    background-color: rgb(91, 0, 175);
+    background-color: rgb(255, 255, 255);
     
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid rgb(132, 1, 255);
     width: 100%;
     height: 100%;
     
@@ -147,7 +148,7 @@ article > a > img{
     height: auto;
 
     margin: 5px;
-    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    filter: drop-shadow(1px 1px 0px rgb(255, 255, 255));
 }
 
 article > a > img:hover{
